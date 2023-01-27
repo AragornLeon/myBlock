@@ -13,19 +13,15 @@ import view.MainWin;
 import view.Music;
 
 public class Main {
-	
 	public static void main(String[] args) throws IOException{
 		Client client = new Client();
 		Start.startMusic();
 		Start.startGame();
 	}
-	
-	
 }
 
 
 class GoDown extends Thread{
-	
 	private GameData gameData;
 	private MainWin mwn;
 	
